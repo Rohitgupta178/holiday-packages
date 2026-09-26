@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Error | WanderNest Travels</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+    <main class="success-page">
+
+        <div class="success-card">
+
+            <div class="error-icon">
+                !
+            </div>
+
+            <h1>Something went wrong</h1>
+
+            <p>
+                {{ message }}
+            </p>
+
+            <a href="{{ url_for('home') }}#contact">
+                Back to Contact Form
+            </a>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+
+contacts.db
+
+.env
+
+.vscode/
+.DS_Store
